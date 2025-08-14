@@ -13,8 +13,8 @@ var Feeds = []FeedConfig{
 	// ***
 	// tech
 	{
-		URL:             "https://www.reddit.com/r/C_Programming/.rss",
-		Header:          "r/c_programming",
+		URL:             "https://www.reddit.com/r/javascript/.rss",
+		Header:          "r/javascript",
 		Agent:           "bot",
 		EnhancedHeaders: false,
 	},
@@ -165,8 +165,20 @@ var Feeds = []FeedConfig{
 		EnhancedHeaders: false,
 	},
 	{
+		URL:             "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114",
+		Header:          "cnbc-top",
+		Agent:           "bot",
+		EnhancedHeaders: false,
+	},
+	{
 		URL:             "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664",
 		Header:          "cnbc-finance",
+		Agent:           "bot",
+		EnhancedHeaders: false,
+	},
+	{
+		URL:             "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=15839135",
+		Header:          "cnbc-earnings",
 		Agent:           "bot",
 		EnhancedHeaders: false,
 	},
@@ -182,16 +194,16 @@ var Feeds = []FeedConfig{
 		Agent:           "bot",
 		EnhancedHeaders: false,
 	},
-	{
-		URL:             "https://seekingalpha.com/market_currents.xml",
-		Header:          "seekingalphabreaking",
-		Agent:           "bot",
-		EnhancedHeaders: false,
-	},
-	{
-		URL:             "https://seekingalpha.com/feed.xml",
-		Header:          "seekingalphaarticles",
-		Agent:           "bot",
-		EnhancedHeaders: false,
-	},
+	// {
+	// 	URL:             "https://seekingalpha.com/market_currents.xml",
+	// 	Header:          "seekingalphabreaking",
+	// 	Agent:           "bot",
+	// 	EnhancedHeaders: false,
+	// },
+	// {
+	// 	URL:             "https://seekingalpha.com/feed.xml",
+	// 	Header:          "seekingalphaarticles",
+	// 	Agent:           "bot",
+	// 	EnhancedHeaders: false,
+	// },
 }
