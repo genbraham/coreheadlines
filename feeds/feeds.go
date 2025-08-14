@@ -100,12 +100,12 @@ var Feeds = []FeedConfig{
 		Agent:           "bot",
 		EnhancedHeaders: false,
 	},
-	// {
-	// 	URL:             "https://valdaiclub.com/export/rss/feed.xml",
-	// 	Header:          "valdai",
-	// 	Agent:           "bot",
-	// 	EnhancedHeaders: false,
-	// },
+	{
+		URL:             "https://valdaiclub.com/export/rss/feed.xml",
+		Header:          "valdai",
+		Agent:           "bot",
+		EnhancedHeaders: false,
+	},
 	{
 		URL:             "https://www.inss.org.il/publication/feed/",
 		Header:          "inss",
